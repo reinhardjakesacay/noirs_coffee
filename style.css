@@ -1,0 +1,23 @@
+body {
+    background: url("images/bg.jpg") rgba(0, 0, 0, 0.3);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div .btn-custom {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff; 
+    background-color: #395F60;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+div .btn-custom:hover {
+    background-color: #DAA520;
+}
